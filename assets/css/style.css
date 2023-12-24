@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap");
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+:root {
+  --black-color: rgba(25, 24, 24, 1);
+  --white-color: rgba(255, 255, 255, 1);
+  --yellow-color: rgba(235, 217, 107, 1);
+  --gray-color: rgba(127, 127, 127, 1);
+  --light-gray-color: rgba(211, 211, 211, 1);
+  --red-color: rgba(234, 23, 1, 1);
+  --circle-color: rgba(239, 236, 235, 1);
+}
+
+body {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: var(--red-color);
+  background-image: url(../img/bacground_pic.jpg);
+
+}
+
+.resume-section {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  width: 32rem;
+  height: 37rem;
+  background-image: url(../img/wallpaper_2.jpg);
+  object-fit: cover;
+  border-top-left-radius: 6rem;
+  border-bottom-right-radius: 6rem;
+  margin-top: 5rem;
+}
+
+.resume-section h1,
+p {
+  text-align: center;
+  color: var(--white-color);
+  font-size: large;
+}
+
+.profile-picture img {
+  object-fit: cover;
+  height: 13rem;
+  border-radius: 10rem;
+  padding-bottom: 2rem;
+}
+
+.resume-section a .resume-button {
+  padding: 0.8em 3em;
+  margin: auto;
+  border-radius: 25px;
+  border: none;
+  font-weight: bold;
+  background: #ffffff;
+  color: rgb(0, 0, 0);
+  transition: 0.4s ease-in-out;
+  text-decoration: none;
+}
+
+.resume-section a .resume-button:hover {
+  background: var(--red-color);
+  cursor: pointer;
+}
+
+.share a:hover{
+	background: var(--red-color);
+	cursor: pointer;
+}
