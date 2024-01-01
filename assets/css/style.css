@@ -27,7 +27,7 @@ body {
   justify-content: center;
   background-color: var(--red-color);
   background-image: url(../img/bacground_pic.jpg);
-
+  padding: 0 3.5rem;
 }
 
 .resume-section {
